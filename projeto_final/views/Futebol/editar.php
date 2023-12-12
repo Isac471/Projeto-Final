@@ -6,6 +6,7 @@ $FutebolController = new FutebolController();
 if(isset($_POST) && count($_POST) > 0) {
     
     $c = new Futebol();
+    $c->setId($_GET['id']);
     $c->setNomeTime($_POST['campoNomeTime']);
     $c->setFundacao($_POST['campoFundacao']);
     $c->setNomeJogador($_POST['campoNomeJogador']);

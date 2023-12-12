@@ -81,7 +81,9 @@ CREATE TABLE `Futebol` (
   `titulos_continentais` int(2) DEFAULT NULL,
   `maior_jogador` varchar(45) DEFAULT NULL,
   `maior_titulo` varchar(45) DEFAULT NULL,
-  PRIMARY KEY (`id`),
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
 -- ----------------------------
 -- Table structure for `produtos`
 -- ----------------------------
