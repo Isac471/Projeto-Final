@@ -1,7 +1,8 @@
 .menu {
-    background-color: rgb(132, 238, 238);
+    background-image: linear-gradient(to right, red, black, red, black);
 }
 .menu nav a {
-    background-color: rgb(241, 144, 17);
+    background-color: red;
     margin-bottom: 2px;
+    color: black;
 }
