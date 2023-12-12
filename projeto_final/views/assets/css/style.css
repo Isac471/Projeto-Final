@@ -1,0 +1,7 @@
+.menu {
+    background-color: rgb(132, 238, 238);
+}
+.menu nav a {
+    background-color: rgb(241, 144, 17);
+    margin-bottom: 2px;
+}
